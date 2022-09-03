@@ -1,0 +1,35 @@
+@media screen and (max-width:950px){
+    #card{
+        width: 85%;
+        margin-right: 25px;
+    }
+}
+
+@media screen and (max-width:600px){
+    main{
+        flex-direction: column;
+        margin-bottom: 30px;
+    }
+    #leftside h1{
+        display: none;
+    }
+    #rightsde{
+        width: 80vw;
+    }
+    #card{
+        width: 100%;
+    }
+    #btn-entrar{
+        width: 80%;
+    }
+
+}
+@media screen and (max-width:400px){
+    #leftside{
+        display: none;
+    }
+    #rightside{
+        width: 80vw;
+        margin-left: 20px;
+    }
+}
